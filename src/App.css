@@ -36,16 +36,22 @@
     transform: rotate(360deg);
   }
 }
+body{
+  margin: 0;
 
+}
 .header{
+  margin-top: -20px;
   width: 100%;
   display: flex;
   flex-direction: row;
   background-color: yellow;
   color: pink;
+  position: fixed;
 }
 .mainLogo{
     width: 20%;
+    height: 100px;
     margin-top: 15px;
     align-items: center;
     justify-content: center;
@@ -67,9 +73,25 @@ li{
   text-decoration: none;
 }
 .btn{
+  margin: 0;
+  align-items: center;
   position: relative;
   background-color: #61dafb;
   border: none;
   border-radius: 5px;
-  padding: 5px 10px 5px 10px;
+  padding: 5px;
+}
+
+.showcase{
+  position: relative;
+  height: 500px;
+}
+.showImg{
+  
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  
+  background-position: left;
+  background-repeat: no-repeat;
 }
