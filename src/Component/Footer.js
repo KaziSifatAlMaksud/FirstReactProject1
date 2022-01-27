@@ -19,7 +19,7 @@ const Footer = () => {
               </ul>
     
       </div>
-      <div foot2>
+      <div className="foot1">
           <ul>
               <li>About Us</li>
               <li>Contact</li>
@@ -31,7 +31,7 @@ const Footer = () => {
               <li>Privacy Policy</li>
           </ul>
       </div>
-      <div>
+      <div className="foot1">
       <button className="btn">Request Invite</button>
       <h4>Copyright &#169; 2022   <i>Kazi Sifat Al Maksud</i>      All Right Reswved</h4>
       </div>

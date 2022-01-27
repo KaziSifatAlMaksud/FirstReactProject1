@@ -143,9 +143,19 @@ li:hover{
 }
 .footer{
   padding-top: 40px;
-  height: 300px;
+  height: 200px;
   background-color: black;
   color: #fff;
   display: flex;
 
+}
+.foot1{
+  display: flex;
+  flex-direction: column;
+  width: 30%;  
+  align-items: center;
+  justify-content: center;
+}
+li:hover{
+  color: #61dafb;
 }
